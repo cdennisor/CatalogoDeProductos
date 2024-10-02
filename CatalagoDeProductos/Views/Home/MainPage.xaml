@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="CatalagoDeProductos.Views.Home.MainPage"
+            xmlns:local="clr-namespace:CatalagoDeProductos.Views.Home"
+            xmlns:pages="clr-namespace:CatalagoDeProductos.Views.Home.Pages">   
+
+    <FlyoutPage.Flyout>
+        <local:Flyout x:Name="flyout"/>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <pages:HomePage />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

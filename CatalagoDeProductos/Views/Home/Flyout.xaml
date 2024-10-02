@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalagoDeProductos.Views.Home.Flyout"
+             xmlns:local="clr-namespace:CatalagoDeProductos.Models"
+             xmlns:pages="clr-namespace:CatalagoDeProductos.Views.Home.Pages"
+             xmlns:CI="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Flyout">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView" x:FieldModifier="public" RowHeight="55" SeparatorVisibility="None">
+            <ListView.Header>
+                <Grid BackgroundColor="{StaticResource primary}" Padding="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
+                    <CI:CircleImage Grid.Row="0" Source="profilePicture" 
+                                    HorizontalOptions="Start"
+                                    BorderThickness="2" BorderColor="{StaticResource bg-2}"/>
+                    <Label Grid.Row="1"
+                           Text="CLINTON ORDOÑEZ"
+                           TextColor="White"
+                           Style="{DynamicResource SubtitleStyle}"/>
+                    <Label Grid.Row="1" VerticalOptions="End"
+                           Text="tilin@gmail.com"
+                           TextColor="White"
+                           FontSize="15"
+                           Style="{DynamicResource SubtitleStyle}"/>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:FlyoutItemPage}">
+                    <local:FlyoutItemPage Title="Home" Icon="Home.png" TargetPage="{x:Type pages:HomePage}"/>
+                    <local:FlyoutItemPage Title="Ofertas" Icon="offer.png" TargetPage="{x:Type pages:ProductsOffer}"/>
+                    <local:FlyoutItemPage Title="Nuevos productos" Icon="newP.png" TargetPage="{x:Type pages:NewProducts}"/>
+                    <local:FlyoutItemPage Title="Categorias" Icon="categories.png" TargetPage="{x:Type pages:Categories}"/>
+                    <local:FlyoutItemPage Title="Perfil" Icon="profile" />
+                    <local:FlyoutItemPage Title="Ayuda" Icon="help" />
+                    <local:FlyoutItemPage Title="Libro de Reclamaciones" Icon="book" />
+                    <local:FlyoutItemPage Title="Mis Publicaciones" Icon="misP" />
+                    <local:FlyoutItemPage Title="Acerca de Tu Mercadito App" Icon="about"/>
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid ColumnDefinitions="33,*" RowDefinitions="55" Padding="20,0" RowSpacing="0">
+                            <Image Grid.Column="0" Source="{Binding Icon}" VerticalOptions="FillAndExpand"/>
+                            <Label Grid.Column="1" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"
+                                    Text="{Binding Title}" 
+                                    FontSize="14"
+                                    CharacterSpacing="0.5"
+                                    Margin="15,0,0,0"
+                                   TextColor="{StaticResource dark}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Frame CornerRadius="20" Padding="0" Margin="50,20" BackgroundColor="{StaticResource danger}">
+            <Button Text="Salir" TextColor="white" FontAttributes="Bold" CharacterSpacing="1"
+                    TextTransform="None" BackgroundColor="{StaticResource danger}"
+                    FontSize="20"/>                
+        </Frame>
+        
+    </StackLayout>
+</ContentPage>

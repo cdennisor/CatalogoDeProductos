@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XAMARIN\\CatalagoDeProductos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\views\\home\\pages\\categories.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\views\\home\\pages\\categories.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\viewmodels\\vmcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\viewmodels\\vmcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\views\\home\\pages\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\views\\home\\pages\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\viewmodels\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\viewmodels\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\models\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\models\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\customresourcedictionary\\customresource.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\customresourcedictionary\\customresource.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\views\\home\\flyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\views\\home\\flyout.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|d:\\xamarin\\catalagodeproductos\\catalagodeproductos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A498CFB7-29F7-4E2F-B193-58115B18670F}|CatalagoDeProductos\\CatalagoDeProductos.csproj|solutionrelative:catalagodeproductos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categories.xaml",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Pages\\Categories.xaml",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\Views\\Home\\Pages\\Categories.xaml",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Pages\\Categories.xaml",
+              "RelativeToolTip": "CatalagoDeProductos\\Views\\Home\\Pages\\Categories.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T10:36:55.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\Views\\Home\\Pages\\HomePage.xaml",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "CatalagoDeProductos\\Views\\Home\\Pages\\HomePage.xaml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T10:27:41.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VMCategories.cs",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\ViewModels\\VMCategories.cs",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\ViewModels\\VMCategories.cs",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\ViewModels\\VMCategories.cs",
+              "RelativeToolTip": "CatalagoDeProductos\\ViewModels\\VMCategories.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:27:05.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\Models\\Category.cs",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Models\\Category.cs",
+              "RelativeToolTip": "CatalagoDeProductos\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:26:49.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\ViewModels\\Products.cs",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\ViewModels\\Products.cs",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\ViewModels\\Products.cs",
+              "RelativeToolTip": "CatalagoDeProductos\\ViewModels\\Products.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:22:57.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductInfo.cs",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Models\\ProductInfo.cs",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\Models\\ProductInfo.cs",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Models\\ProductInfo.cs",
+              "RelativeToolTip": "CatalagoDeProductos\\Models\\ProductInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:21:44.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Flyout.xaml",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Flyout.xaml",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\Views\\Home\\Flyout.xaml",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\Views\\Home\\Flyout.xaml",
+              "RelativeToolTip": "CatalagoDeProductos\\Views\\Home\\Flyout.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T08:45:05.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\App.xaml.cs",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\App.xaml.cs",
+              "RelativeToolTip": "CatalagoDeProductos\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:30:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomResource.xaml",
+              "DocumentMoniker": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\CustomResourceDictionary\\CustomResource.xaml",
+              "RelativeDocumentMoniker": "CatalagoDeProductos\\CustomResourceDictionary\\CustomResource.xaml",
+              "ToolTip": "D:\\XAMARIN\\CatalagoDeProductos\\CatalagoDeProductos\\CustomResourceDictionary\\CustomResource.xaml",
+              "RelativeToolTip": "CatalagoDeProductos\\CustomResourceDictionary\\CustomResource.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwDAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T02:41:08.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

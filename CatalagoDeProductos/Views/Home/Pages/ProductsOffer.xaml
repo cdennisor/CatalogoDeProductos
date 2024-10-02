@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalagoDeProductos.Views.Home.Pages.ProductsOffer"
+             xmlns:local="clr-namespace:CatalagoDeProductos.ViewModels"
+             Title="Ofertas">
+    <ContentPage.BindingContext>
+        <local:ProductsOff/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Frame HasShadow="False" Padding="0">
+            <CollectionView ItemsSource="{Binding MyOffers}" BackgroundColor="{StaticResource default}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                HorizontalItemSpacing="1"
+                                VerticalItemSpacing="1"
+                                Span="2"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="20" BackgroundColor="white">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OfferDetail_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{Binding Img}" HeightRequest="150" 
+                                           HorizontalOptions="CenterAndExpand"/>
+                            <Frame Padding="0" CornerRadius="3" BackgroundColor="#2870f4" 
+                                           HorizontalOptions="StartAndExpand">
+                                <Label Text="OFERTA DEL DÍA" 
+                                        Padding="3,0"
+                                        FontSize="13"
+                                        HorizontalOptions="Start" TextColor="White"/>
+                            </Frame>
+                            <Label TextDecorations="Strikethrough" FontSize="12">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="S/ "/>
+                                        <Span Text="{Binding Before}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label HorizontalOptions="Start" TextColor="Black" FontSize="20">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="S/ "/>
+                                        <Span Text="{Binding Price}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label Text="{Binding Description}" HorizontalOptions="Start"/>
+                            <Label Text="{Binding Detail}" HorizontalOptions="Start" TextColor="Green"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

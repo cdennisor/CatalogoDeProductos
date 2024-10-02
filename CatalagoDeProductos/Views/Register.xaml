@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:CI="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CatalagoDeProductos.Views.Register">
+
+    <StackLayout Padding="20,20" VerticalOptions="FillAndExpand" >
+        <ImageButton x:Name="btn_close" Clicked="btn_close_Clicked" Source="close" HorizontalOptions="End" BackgroundColor="Transparent"/>
+        <Grid HorizontalOptions="Center" RowSpacing="0" VerticalOptions="CenterAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <!--<Image Source="fondo.png"
+                Grid.Row="0" Aspect="AspectFill"/>
+        <BoxView BackgroundColor="{StaticResource dark-2}" Opacity="0.7" Grid.Row="0"/>-->
+
+            <CI:CircleImage Grid.Row="0" Source="logo" HeightRequest="150"/>
+            <Label Grid.Row="1"  Style="{StaticResource lbl_login}"
+                    Text="Crear una cuenta" FontSize="30" TextColor="{StaticResource primary}"
+                    FontAttributes="Bold" />
+
+            <Frame Grid.Row="2" BackgroundColor="Transparent" Padding="0" HorizontalOptions="Center">
+                <StackLayout>
+                    <Grid RowDefinitions="auto,auto,auto,auto,auto,auto,auto,auto" ColumnDefinitions="auto" ColumnSpacing="20">
+                        <Entry Grid.Row="0" Placeholder="Email" Keyboard="Email"/>
+                        <Entry Grid.Row="1" Placeholder="Nombres" Keyboard="Text"/>
+                        <Entry Grid.Row="2" Placeholder="Apellidos" Keyboard="Text"/>
+                        <Entry Grid.Row="3" Placeholder="Teléfono" Keyboard="Numeric"/>
+                        <Entry Grid.Row="4" Placeholder="Contraseña" IsPassword="True"/>
+                        <Entry Grid.Row="5" Placeholder="Repita su contraseña" IsPassword="True"/>
+                        <Button Grid.Row="6" Text="Registrarse" Style="{StaticResource btn_login}"/>
+                        <Label Grid.Row="7" Margin="0,40,0,0"
+                           TextColor="{StaticResource text}"
+                           HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="¿Ya tienes una cuenta? " CharacterSpacing="1" 
+                                            TextColor="{StaticResource secondary}"/>
+                                    <Span Text="Ingresar" FontAttributes="bold"
+                                            CharacterSpacing="1.3" TextColor="{StaticResource primary}">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="sign_in_Tapped"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>

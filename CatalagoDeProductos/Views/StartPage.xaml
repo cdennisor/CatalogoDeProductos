@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="fondo"
+             xmlns:CI="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CatalagoDeProductos.Views.StartPage">
+    <!--BackgroundImageSource="https://wallpaper.forfun.com/fetch/4e/4e8b61705aea3fe461bdab75e62e0c8f.jpeg"
+    https://i.blogs.es/140fd0/midjourney-portada-generada/450_1000.webp-->
+    
+    <StackLayout Padding="20,40" VerticalOptions="CenterAndExpand">
+        <Grid HorizontalOptions="Center" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <!--<Image Source="fondo.png"
+                    Grid.Row="0" Aspect="AspectFill"/>
+            <BoxView BackgroundColor="{StaticResource dark-2}" Opacity="0.7" Grid.Row="0"/>-->
+            
+            <CI:CircleImage Grid.Row="0" Source="main" WidthRequest="150"/>
+            <Label Grid.Row="1"  HorizontalOptions="Center" VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Text="Tu Mercadito App" FontSize="42" TextColor="{StaticResource bg-2}"/>
+            <Label Grid.Row="1"  HorizontalOptions="Center" VerticalOptions="End"
+                       HorizontalTextAlignment="Center"
+                       Text="Cree una cuenta y accede a todos nuestros servicios" TextColor="{StaticResource default}"/>         
+            <Frame Grid.Row="2" BackgroundColor="Transparent" Padding="0,90,0,0" HorizontalOptions="Center">
+                <StackLayout>
+                    <Grid RowDefinitions="auto,auto" ColumnDefinitions="auto,auto" ColumnSpacing="20">
+                        <Button Grid.Row="0" Grid.Column="0" 
+                                Text="Iniciar Sesión" Style="{StaticResource btn_h}"
+                                BackgroundColor="{StaticResource dark}" TextColor="{StaticResource bg-2}"
+                                VerticalOptions="Center" HorizontalOptions="Center"
+                                BorderWidth="3" BorderColor="{StaticResource dark-2}"
+                                x:Name="btn_login" Clicked="btn_login_Clicked"/>
+                        <Button Grid.Row="0" Grid.Column="1" 
+                                Text="Crear cuenta" Style="{StaticResource btn_h}" BorderWidth="3" BorderColor="{StaticResource bg-2}"
+                                BackgroundColor="Transparent" TextColor="{StaticResource bg-2}"
+                                VerticalOptions="Center" HorizontalOptions="Center"
+                                x:Name="btn_register" Clicked="btn_register_Clicked"/>
+                        <Label Grid.Row="1" Grid.ColumnSpan="2" Margin="0,40,0,0"
+                               TextColor="{StaticResource text}"
+                               HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Continuar como " CharacterSpacing="1"/>
+                                    <Span Text="INVITADO" TextDecorations="Underline" FontAttributes="bold"
+                                          CharacterSpacing="1.3" TextColor="{StaticResource white}">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="invited"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ContentPage>
